@@ -407,9 +407,10 @@ button:focus {
   margin-left: 30px;
 }
 .modal {
-  top: 50%;
-  right: 50%;
-
+  top: 221px;
+  right: 536px;
+  left: 536px;
+  bottom: 222px;
   width: 528px;
   height: 581px;
   background-color: #ffffff;
@@ -479,4 +480,12 @@ button:focus {
   line-height: 1.5;
   color: #ffffff;
   padding: 49px 45px 49px 24px;
+}
+.modal-overlay {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
 }
